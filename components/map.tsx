@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { MemoBox } from "./box";
-import { SnakeGame } from "@/app/utils";
+import { SnakeGame } from "@/utils";
 
 export const Map = () => {
   const [mapSize, setMapSize] = useState(20);
